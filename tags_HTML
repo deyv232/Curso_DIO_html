@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Uso de Tags HTML</title>
+    </head>
+    <body>
+        <h1 id="hr">O uso das tags em HTML<hr /></h1>
+            <p>No HTML temos varias tags para fazer uso de uma certa formatação na apresentação das
+            dos caracteres em paginas web. Nesse pequeno website veremos algumas delals e também seus usos e aplicações. As tags são usadas dentro dos sinais de
+            maior e menor "< >".</p>
+        <h2>Índice<hr></h2>
+        <ul>
+            <li><a href="#Tag h">Tag h</a></li>
+            <li><a href="#Tag p">Tag p</a></li>
+            <li><a href="#Tag mark">Tag mark</a></li>
+            <li><a href="#Tag small">Tag small</a></li>
+            <li><a href="#Tag i">Tag i(Italico)</a></li>
+            <li><a href="#Tag u">Tag u(Sublinhado)</a></li>
+            <li><a href="#Tag strong">Tag strong</a></li>
+            <li><a href="#Tag ol">Tag ol(listas ordenadas)</a></li>
+            <li><a href="#Tag ul">Tag ul(listas não ordenandas)</a></li>
+            <li><a href="#Tag a">Tag a(ancoragem)</a></li>
+            <li><a href="#Tag hr">Tag hr</a></li>
+            <li><a href="#Tag sub">Tag sub</a></li>
+            <li><a href="#Tag sup">Tag sup</a></li>
+            <li><a href="#Tag blockquote">Tag blockquote</a></li>
+            <li><a href="#Tag font">Tag font</a></li>
+            <li><a href="#Tag del">Tag del</a></li>
+            <li><a href="#Tag abbr">Tag abbr</a></li>
+        </ul>
+        <h2 id="#Tag h">Tags h1 a h6</h2>
+            <p>Começaremos apresentados as tags <mark>h1 a h6</mark>. O "h" vem de header que quuer dizer cabeçalho, ou seja, ela será
+            apresentada como um título para o assunto que será discutido. Os titulos vão reduzindo de tamanho conforme o número apresentado ao lado do "h".</p>
+        </p>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+            <p>Como visto acima cada "h" se define em tamanho ao respectivo número que recebe ao seu lado no comando.</p>
+        <h2 id="Tag p">Tag "p"</h2>
+            <p>A tag <mark>p</mark> define onde será um paragráfo no texto, como exemplo esse texto que você estpa lendo está inserido em uma tag <strng>p</strng>.</p>
+        <h2 id="Tag mark">Tag "mark"</h2>
+            <p>A tag <mark>mark</mark> é usada para demarcar uma parte do texto para destaca-lo.</p>
+        <h2 id="Tag small">Tag "small"</h2>
+            <p>A tag <mark>small</mark> é usada para definir um texto menor, como direitos autorais e outros comentarios laterais.</p>
+            <p>"Só sei que nada sei!" <br /><small>Sócrates</small></p>
+            <p>É possível ver a redução no texto "Sócrates" pois nele foi usado a tag <mark>small</mark>. </p>
+        <h2 id="Tag i">Tag "i"</h2>
+            <p>A tag "i" é isada para deixar um termo em italico.<br>
+            <i>"Aquilo que se faz por amor está sempre acima do bem e do mal."<small> Friedrich Nietzsche.</small></i></p>
+        <h2 id="Tag u">Tag "u"</h2>
+            <p>A tag "u" é usada para deixar o texto sublinhado como por exemplo: <u>"Reunião, amanhã as 09:00!"</u></p>
+        <h2 id="Tag strong">Tag "strong"</h2>
+            <p>A tag "strong" é usada para deixar o texto em <strong>negrito</strong>.</p>
+        <h2 id="Tag ol">Listas Ordenadas "ol"</h2>
+            <p>A tag "ol" é usada quando queremos apresentar uma lista de forma ordenada, tendo a tag "li" inserida para fazer a listagem
+                do itens:</p>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+        <h2 id="Tag ul">Listas Não Ordenadas</h2>
+            <p>As listas não ordenadas são indentificadas pela tag "ul" e em contraposição a tag "ol" ela apresenta os itens
+                mas sem apresentar uma ordem neles:
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <ul>
+                    <li>Item 2.1</li>
+                    <li>Item 2.2</li>
+                </ul>
+                <li>Item 3</li>
+            </ul>
+            </p>
+        <h2 id="Tag a">Tag "a"</h2>
+            <p>A tag "a" funciona como uma ancoragem que te ajuda a ligar uma parte da sua pagina a outra através de alguns subcomandos
+                com "href". Um exemplo disso é o índice no inicio dsa página.
+            </p>
+        <h2 id="Tag hr">Tag "hr"</h2>
+            <p>Usada para criar um espaço de margem entre uma linha e outra, como visto no titulo dessa pagina.</p>
+            <a href="#hr">clique aqui</a>
+        <h2 id="Tag sub">Tag "sub"</h2>
+            <p>A tag "sub" é usada para referenciar termos que estão meia linha abaixo da linha padrão:</p>
+            <p><mark>H<sub>2</sub>O</mark></p>
+        <h2 id="Tag sup">Tag "sup"</h2>
+            <p>A tag "sup" é usada quando queremos demarcar o caractere que fica meia linha acima da linha padrão:</p>
+            <p><mark>17<sup>3</sup></mark></p>
+            <p><mark>35<sup>o</sup>C</mark></p>
+        <h2 id="Tag blockquote">Tag "blockquote"</h2>
+            <p>A tag "blockquote" é usada para adicionar citação direta ao texto, deixando o mesmo num espaçamento diferente do restante
+                do texto.
+            </p>
+            <p><blockquote>"É preciso ter o caos dentro de si para dar a luz à uma estrela dançante."<small> Friedrich Nietzsche</small></blockquote></p>
+        <h2 id="Tag font">Tag "font"</h2>
+            <p>A tag "font" foi usada até o HTML4, porém no HTML5 ela foi substituida pela função <strong>style</strong>.</p>
+        <h2 id="Tag del">Tag "del"</h2>
+            <p>A tag "del" é usada para mostrar um texto que foi deletado do conteúdo exemplo uma frase que tenha sido descartada.</p>
+            <p><del>Vendas apenas no atacado.</del></p>
+        <h2 id="Tag abbr">Tag "abbr</h2>
+            <p>Usada para definir abreviações como "CSS", "HTML", "Dr.", "Sr." e etc.</p>
+    </body>
+</html>
